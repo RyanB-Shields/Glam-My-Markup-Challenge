@@ -1,0 +1,61 @@
+/* stylesheet */
+
+/* body */
+body {
+    background-image: url("../images/camp-background.png");
+    text-align: center;
+}
+
+/* ************************************************************************** */
+
+/* Fonts  */
+@font-face {
+    font-family: wood;
+    src:url("../fonts/Wood2.ttf");
+}
+
+h1 {
+    font-family: wood;
+    font-size: 32pt;
+    width: 100%;
+    color: 	#da6d42;
+    padding: 20px;
+}
+
+form {
+    font-size: 14pt; 
+}
+
+/* ************************************************************************** */
+
+/* Form */
+
+form {
+    background: white;
+    opacity: 75%;
+    padding: 10px;
+    width: 450px;
+    display: block;
+    margin: 10px auto 10px;
+    border-radius: 10px;
+}
+
+#activity-select, #food-allergies, #additional-info, button {
+    display: block;
+    margin: 10px auto 10px;
+    border-radius: 10px;
+}
+
+textarea {
+    resize:vertical;
+}
+
+textarea:focus {
+    background-color: lightblue;
+}
+
+button:hover{
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+}
